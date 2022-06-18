@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+    --charcoal: #202424;
+    --blush: #fceff9;
+    --lightblue: #809eba;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: var(--charcoal);
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--lightblue);
+  }
+  
+  * {
+    box-sizing: border-box;  
+  }
+  
+  h1 {
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  
+  h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    text-align: center;
+   
+    color: var(--blush);
+  }
+  
+  h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blush);
+  }
+  
+  .container {
+    padding: 40px;
+    height: 100vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+  }
+  
+  #button-container {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+   
+
+  }
+  
+  .button1 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/paper.jpg");
+    background-color: whitesmoke;
+    font-size: 32px;
+    border-radius: 25px;
+    margin: 30px;
+    border-color: var(--seagreen);
+    border-width: 5px;
+    font-weight: bold;
+  }
+  
+  .button2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/scissorjpg.jpg" )  ;
+    background-color: whitesmoke;
+    font-size: 32px;
+    border-radius: 25px;
+    margin: 30px;
+    border-color: var(--seagreen);
+    border-width: 5px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+  }
+  .button3 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/rock.jpg" );
+    background-color: whitesmoke;
+    font-size: 32px;
+    border-radius: 25px;
+    margin: 30px;
+    border-color: var(--seagreen);
+    border-width: 5px;
+    font-weight: bold;
+  }
+  .button1:hover {
+
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .button2:hover {
+
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  .button3:hover {
+
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  
+  
+  button1 {
+    background-color: var(--blush);
+    color: var(--charcoal);
+    width: 140px;
+    height: 70px;
+    border-radius:  5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  button2 {
+    background-color: var(--blush);
+    color: var(--charcoal);
+    width: 140px;
+    height: 70px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  button3 {
+    background-color: var(--blush);
+    color: var(--charcoal);
+    width: 140px;
+    height: 70px;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  button1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  button2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  button3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  btn{
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    
+  }
