@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: #3b4557;
+	color: rgb(8, 6, 6);
+	font-family:  "Courier New", Courier, monospace;
+
+}
+ 
+.game{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+ 
+.title{
+	position: absolute;
+	top: 0;
+	font-size: 4rem;
+	margin-top: 90px;
+	font-weight:bold ;
+ 
+}
+
+ 
+
+
+ 
+.options{
+	display: flex;
+	width: 50vw;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+/*  Buttons style  */
+.Rock, .Paper, .Scissors{
+	padding: 0.8rem;
+	width: 200px;
+	height: 100px;
+ margin-right: 20px;
+	border-radius: 10px;
+	background: rgb(211, 215, 211);
+	outline: none;
+	border-color: rgb(131, 136, 131);
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+.Rock:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .Paper:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .Scissors:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+.counter{
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 4rem;
+	color: #3b4557;
+
+}
+
+
+.reload {
+	display: none;
+	margin-top: 2rem;
+	padding: 1rem;
+	background: rgb(211, 215, 211);
+	
+	border: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 4rem;
+}
+
+.result{
+	margin-top: 20px;
+	font-size: 2.2rem;
+	 
+
+ }
+
+ 
